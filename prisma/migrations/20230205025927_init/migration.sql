@@ -22,9 +22,9 @@ CREATE TABLE "restaurantes" (
     "provincia" TEXT NOT NULL,
     "usuarioId" INTEGER,
     "tipo" TEXT NOT NULL,
-    "apertura" TIMESTAMP(3) NOT NULL,
-    "cierre" TIMESTAMP(3) NOT NULL,
-    "fech_creacion" TIMESTAMP(3) NOT NULL,
+    "apertura" TEXT NOT NULL,
+    "cierre" TEXT NOT NULL,
+    "fech_creacion" TEXT NOT NULL,
     "calificacion" DOUBLE PRECISION NOT NULL,
     "descripcion" TEXT NOT NULL,
 
