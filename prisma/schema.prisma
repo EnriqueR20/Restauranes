@@ -34,9 +34,9 @@ model Restaurante {
   usuario      Usuario?   @relation(fields: [usuarioId], references: [id])
   usuarioId    Int?  
   tipo          String
-  apertura      DateTime 
-  cierre        DateTime 
-  fech_creacion DateTime
+  apertura      String 
+  cierre        String 
+  fech_creacion String
   calificacion  Float
   descripcion   String
   plato Plato[]
